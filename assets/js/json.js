@@ -1,4 +1,4 @@
-{
+const allText = {
   "Huzi's Portfolio":{
     "en": "Huzi's Portfolio",
     "cn": "胡子的主页",
@@ -35,9 +35,9 @@
     "kr": "연락"
   },
   "I'm":{
-    "en": "I'm",
-    "cn": "我是",
-    "kr": "나는"
+    "en": "I'm ",
+    "cn": "我是 ",
+    "kr": "나는 "
   },
   "Programer, Robotic developer, Freelancer":{
     "en": "Programer, Robotic developer, Freelancer",
@@ -45,22 +45,11 @@
     "kr": "프로그래머, 로봇 개발자, 프리랜서"
   },
   "about-state":{
-    "en": `I was born in 1982 in China and currently reside in South Korea.
-    I hold undergraduate, master's, and doctoral degrees in the field of biomedical engineering, with my PhD
-    being from Korea University.
-    My leisure activities include swimming, rope skipping, and mountain climbing.
-    I enjoy these activities as they help me maintain physical fitness and allow me to engage with nature.
-    I am a person who prefers a quiet environment and enjoys focusing on the things I love.`,
-    "cn": "我是中国人，出生于1982年，现居韩国。
-    我拥有工科的学士、硕士和博士学位。
-    我喜欢游泳、跳绳和登山。
-    我是一个喜欢宁静和专注的人。",
-    "kr": "나는 1982년에 태어난 중국인이고, 현재는 한국에 거주하고 있습니다.
-    공학 분야에서 학사, 석사 및 박사 학위를 보유하고 있습니다.
-    수영 등산 등 운동을 좋아합니다.
-    조용하고 집중하는 것을 좋아합니다."
+    "en": "I was born in 1982 in China and currently reside in South Korea. I hold undergraduate, master's, and doctoral degrees in the field of biomedical engineering, with my PhD being from Korea University. My leisure activities include swimming, rope skipping, and mountain climbing. I enjoy these activities as they help me maintain physical fitness and allow me to engage with nature. I am a person who prefers a quiet environment and enjoys focusing on the things I love.",
+    "cn": "我是中国人，出生于1982年，现居韩国。我拥有工科的学士、硕士和博士学位。我喜欢游泳、跳绳和登山。我是一个喜欢宁静和专注的人。",
+    "kr": "나는 1982년에 태어난 중국인이고, 현재는 한국에 거주하고 있습니다. 공학 분야에서 학사, 석사 및 박사 학위를 보유하고 있습니다. 수영 등산 등 운동을 좋아합니다. 조용하고 집중하는 것을 좋아합니다."
   },
-  "Robot developer &amp; Programer":{
+  "Robot developer and Programer":{
     "en": "Robot developer &amp; Programer",
     "cn": "机器人研发工程师 &amp; 程序员",
     "kr":"로봇 개발자 &amp; 프로그래머"
@@ -71,34 +60,34 @@
     "kr": "12년의 연구 개발 경력을 가지고 있습니다."
   },
   "Birthday":{
-    "en": "Birthday",
-    "cn": "生日",
-    "kr": "출생년월"
+    "en": "Birthday:",
+    "cn": "生日：",
+    "kr": "출생년월:"
   },
   "Website":{
-    "en": "Website",
-    "cn": "主页",
-    "kr": "홈페이지"
+    "en": "Website:",
+    "cn": "主页：",
+    "kr": "홈페이지:"
   },
   "Wechat/Kakaotalk":{
-    "en": "Wechat/Kakaotalk",
-    "cn": "微信/Kakaotalk",
-    "kr": "위챗/카카오톡"
+    "en": "Wechat/Kakaotalk:",
+    "cn": "微信/Kakaotalk：",
+    "kr": "위챗/카카오톡:"
   },
   "City":{
-    "en": "City",
-    "cn": "所在地",
-    "kr": "주소"
+    "en": "City:",
+    "cn": "所在地：",
+    "kr": "주소:"
   },
   "Age":{
-    "en": "Age",
-    "cn": "年龄",
-    "kr": "나이"
+    "en": "Age:",
+    "cn": "年龄：",
+    "kr": "나이:"
   },
   "Degree":{
-    "en": "Degree",
-    "cn": "学位",
-    "kr": "학위"
+    "en": "Degree:",
+    "cn": "学位：",
+    "kr": "학위:"
   },
   "Phd":{
     "en": "PhD",
@@ -106,20 +95,25 @@
     "kr": "박사"
   },
   "Email":{
-    "en": "Email",
-    "cn": "邮箱",
-    "kr": "메일"
+    "en": "Email:",
+    "cn": "邮箱：",
+    "kr": "메일:"
   },
   "Freelance":{
-    "en": "Freelance",
-    "cn": "自由职业",
-    "kr":"프리랜서"
+    "en": "Freelance:",
+    "cn": "自由职业：",
+    "kr":"프리랜서:"
+  },
+  "Available":{
+    "en": "Available",
+    "cn": "可以",
+    "kr": "가능"
   },
   "about-professions-state-2":{
-    "en": "With over 12 years of experience in robot and IT development,
+    "en": `With over 12 years of experience in robot and IT development,
     I have a strong passion for programming, specializing in both robot programming and web programming.
     Throughout my career, I have been dedicated to advancing robot technology,
-    combining biomedical engineering and robotics to address real-world problems.",
+    combining biomedical engineering and robotics to address real-world problems.`,
     "cn": "我拥有超过12年的机器人和IT开发经验，我对编程有着强烈的热情，专注于机器人编程和网络编程两个领域。我致力于用IT技术解决现实世界的问题。",
     "kr": "로봇 및 IT 개발 분야에서 12년 이상의 경력을 가지고 있으며, 프로그래밍 기술과 IT 기술을 활용하여 현실 문제를 해결하는 걸 잘 합니다."
   },
@@ -129,12 +123,25 @@
     "kr": "성적"
   },
   "facts-state":{
-    "en": "I possess extensive expertise in robot system design, encompassing both backend and frontend development.
+    "en": `I have had the privilege of publishing nearly 10 academic research papers, with the distinction of being the
+    first author for three of them, all of which are SCI-indexed.
+    In addition to my research contributions, I have made significant strides in innovation as the author of
+    four granted patents.`,
+    "cn": "我以第一作者发表了近10篇学术论文，其中3篇被SCI收录。我还是4项已授权专利的作者。",
+    "kr": "제1저자로 학술 논문을 10편 정도 발표했으며, 그 중 3편은 SCI에 수록되었습니다. 또한, 4건의 등록된 특허의 저자이기도 합니다."
+  },
+  "Skills":{
+    "en": "Skills",
+    "cn": "技术",
+    "kr": "기술"
+  },
+  "skills-state":{
+    "en": `I possess extensive expertise in robot system design, encompassing both backend and frontend development.
     Backend development involves programming in languages such as C, C++, C#, Python and server technologies to
     control robot hardware and develop algorithms.
-    Frontend design entails creating graphic user interfaces, primarily employing HTML, CSS and JavaScript.",
-    "cn": "我以第一作者发表了近10篇学术论文，其中3篇被SCI收录。我还是4项已授权专利的作者。",
-    "kr": "제1저자로 학술 논문을 10편 정도 발표했으며, 그 중 3편은 SCI에 수록되었습니다. 또한, 4건의 특허를 획득한 저자이기도 합니다."
+    Frontend design entails creating graphic user interfaces, primarily employing HTML, CSS and JavaScript.`,
+    "cn": "我拥有广泛的机器人系统设计专业知识，涵盖了后端和前端开发。后端开发涉及使用诸如C、C++、C#、Python等编程语言和服务器技术，用以控制机器人硬件，和开发算法。前端设计涉及创建图形用户界面，主要使用HTML、CSS和JavaScript语言。",
+    "kr": "나는 로봇 시스템 설계 경험을 보유하고 있으며 백엔드 및 프론트엔드 개발을 포함하고 있습니다. 백엔드 개발은 C, C++, C#, Python과 같은 프로그래밍 언어 및 서버 기술을 사용하여 로봇 하드웨어를 제어하고 알고리즘을 개발하는 작업을 합니다. 프론트엔드 디자인은 주로 HTML, CSS 및 JavaScript를 사용하여 그래픽 사용자 인터페이스를 생성하는 작업입니다."
   },
   "Sumary":{
     "en": "Sumary",
@@ -142,9 +149,9 @@
     "kr": "요약"
   },
   "resume-sumary":{
-    "en": "I have dedicated 12 years to research and development in the field of robotics technology.
+    "en": `I have dedicated 12 years to research and development in the field of robotics technology.
     I hold a PhD in engineering and currently reside in South Korea.
-    I am proficient in speaking Chinese, English, and Korean.",
+    I am proficient in speaking Chinese, English, and Korean.`,
     "cn": "我已经致力于机器人技术研究与开发达12年之久。我拥有工学博士学位，目前居住在韩国。我能流利地说中文、英文和韩文。",
     "kr": "로봇 공학 기술 분야의 연구 및 개발에 12년을 경력있고, 공학 박사 학위를 보유하고 있으며 현재 한국에 거주하고 있습니다. 중국어, 영어, 한국어 잘합니다."
   },
@@ -246,7 +253,7 @@
   },
   "Below are some apps and web demos that I have personally designed and coded with web programming skills.":{
     "en": "Below are some apps and web demos that I have personally designed and coded with web programming skills.",
-    "cn": "以下是一些我个人设计并用网页编程技能编写的应用程序和网络演示。",
+    "cn": "以下是一些我个人设计和编写的应用程序和网页演示。",
     "kr": "다음은 개인적으로 웹 프로그래밍 기술로 디자인하고 코딩한 앱 및 웹 데모입니다."
   },
   "All":{
@@ -273,6 +280,11 @@
     "en": "Location:",
     "cn": "所在地：",
     "kr": "주소:"
+  },
+  "Wechat":{
+    "en": "Wechat",
+    "cn": "微信",
+    "kr": "위챗"
   },
   "Kakaotalk":{
     "en": "Kakaotalk",

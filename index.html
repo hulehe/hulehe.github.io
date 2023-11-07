@@ -28,6 +28,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/mystyle.css">
 
 </head>
 
@@ -39,6 +40,12 @@
   <!-- ======= Header ======= -->
   <header id="header">
     <div class="d-flex flex-column">
+
+      <div class="flags">
+        <img class="round-img" src="./assets/img/us-25.png" alt="us-25.png">
+        <img class="round-img" src="./assets/img/cn-25.png" alt="cn-25.png">        
+        <img class="round-img" src="./assets/img/kr-25.png" alt="kr-25.png">
+      </div>
 
       <div class="profile">
         <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
@@ -99,7 +106,7 @@
                   <li><i class="bi bi-chevron-right"></i> <strong id="Birthday">Birthday:</strong> <span>1982</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong id="Website">Website:</strong> <span>ghwlsro.github.io</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong id="Wechat">Wechat/Kakaotalk:</strong> <span>huzhenkai</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong id="City">City:</strong> <span>Siheung-si, Gyeonggi-do,
+                  <li><i class="bi bi-chevron-right"></i> <strong id="City">City:</strong> <span id="city-address">Siheung-si, Gyeonggi-do,
                       Korea</span></li>
                 </ul>
               </div>
@@ -109,7 +116,7 @@
                   <li><i class="bi bi-chevron-right"></i> <strong id="Degree">Degree:</strong> <span id="Phd">PhD</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong id="Email">Email:</strong> <span>huzhenkai@naver.com</span>
                   </li>
-                  <li><i class="bi bi-chevron-right"></i> <strong id="Freelance">Freelance:</strong> <span>Available</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong id="Freelance">Freelance:</strong> <span id="Available">Available</span></li>
                 </ul>
               </div>
             </div>
@@ -130,8 +137,8 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Facts</h2>
-          <p>
+          <h2 id="facts-title">Facts</h2>
+          <p id="facts-state">
             I have had the privilege of publishing nearly 10 academic research papers, with the distinction of being the
             first author for three of them, all of which are SCI-indexed.
             In addition to my research contributions, I have made significant strides in innovation as the author of
@@ -147,8 +154,8 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Skills</h2>
-          <p id="facts-state">
+          <h2 id="skills-title">Skills</h2>
+          <p id="skills-state">
             I possess extensive expertise in robot system design, encompassing both backend and frontend development.
             Backend development involves programming in languages such as C, C++, C#, Python and server technologies to
             control robot hardware and develop algorithms.
@@ -245,7 +252,7 @@
 
         <div class="row">
           <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title">Sumary</h3>
+            <h3 id="resume-sumary-title">Sumary</h3>
             <div class="resume-item pb-0">
               <h4 id="resume-name">Huzi</h4>
               <p id="resume-sumary"><em>
@@ -254,62 +261,62 @@
                   I am proficient in speaking Chinese, English, and Korean.
                 </em></p>
               <ul>
-                <li id="address">Siheung-si, Gyeonggi-do, South Korea</li>
+                <li id="resume-address">Siheung-si, Gyeonggi-do, South Korea</li>
                 <li>ghwlsro.github.io</li>
                 <li>huzhenkai@naver.com</li>
               </ul>
             </div>
 
-            <h3 class="resume-title">Education</h3>
+            <h3 class="resume-title" id="resume-education-title">Education</h3>
             <div class="resume-item">
               <h4 id="resume-phd">PhD of Biomedical Engineering</h4>
               <h5>2007 - 2011</h5>
-              <p id="resume-KU"><em>Korea University, Seoul, South Korea</em></p>
+              <p><em id="resume-KU">Korea University, Seoul, South Korea</em></p>
               <!-- <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p> -->
             </div>
             <div class="resume-item">
               <h4 id="resume-master">Master of Biomedical Engineering</h4>
               <h5>2004 - 2007</h5>
-              <p id="resume-NEU"><em>Northeastern University, Shenyang, China</em></p>
+              <p><em id="resume-NEU">Northeastern University, Shenyang, China</em></p>
               <!-- <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p> -->
             </div>
             <div class="resume-item">
               <h4 id="resume-bachelor">Bachelor of Biomedical Engineering</h4>
               <h5>2000 - 2004</h5>
-              <p><em>Northeastern University, Shenyang, China</em></p>
+              <p><em id="resume-bNEU">Northeastern University, Shenyang, China</em></p>
               <!-- <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p> -->
             </div>
           </div>
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Professional Experience</h3>
+            <h3 class="resume-title" id="resume-profession-title">Professional Experience</h3>
 
             <div class="resume-item">
-              <h4 id="resume-item1-title">Chief Researcher on Commercial Robot Development</h4>
+              <h4 id="resume-profession1-title">Chief Researcher on Commercial Robot Development</h4>
               <h5>2018 - 2013</h5>
-              <p><em>Seoul, South Korea </em></p>
+              <p><em id="resume-profession1-addr">Seoul, South Korea </em></p>
               <ul>
-                <li id="resume-item1-state1">Development on commercial service robots including information robot and patrol robot</li>
-                <li>Mainly on robot operating system development </li>
+                <li id="resume-profession1-state1">Development on commercial service robots including information robot and patrol robot</li>
+                <li id="resume-profession1-state2">Mainly on robot operating system development </li>
               </ul>
             </div>
 
             <div class="resume-item">
-              <h4>Post-doc researcher on Surgical Robot Development</h4>
+              <h4 id="resume-profession2-title">Post-doc researcher on Surgical Robot Development</h4>
               <h5>2016 - 2018</h5>
-              <p><em>Seoul, South Korea </em></p>
+              <p><em id="resume-profession2-addr">Seoul, South Korea </em></p>
               <ul>
-                <li>Research and development on cardiovascular surgical robot</li>
-                <li>Mainly on robot control</li>
+                <li id="resume-profession2-state1">Research and development on cardiovascular surgical robot</li>
+                <li id="resume-profession2-state2">Mainly on robot control</li>
               </ul>
             </div>
 
             <div class="resume-item">
-              <h4>Researcher on Surgical Robot Development</h4>
+              <h4 id="resume-profession3-title">Researcher on Surgical Robot Development</h4>
               <h5>2011 - 2015</h5>
-              <p><em>Goyang-si, Gyeonggi-do, South Korea </em></p>
+              <p><em id="resume-profession3-addr">Goyang-si, Gyeonggi-do, South Korea </em></p>
               <ul>
-                <li>Research and development on Laparoscopic surgical robotic system</li>
-                <li>Haptic feedback technology research and Robot teleoperation control</li>
+                <li id="resume-profession3-state1">Research and development on Laparoscopic surgical robotic system</li>
+                <li id="resume-profession3-state2">Haptic feedback technology research and Robot teleoperation control</li>
               </ul>
             </div>
 
@@ -324,8 +331,8 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>
+          <h2 id="portfolio-title">Portfolio</h2>
+          <p id="portfolio-state">
             Below are some apps and web demos that I have personally designed and coded with web programming skills.
           </p>
         </div>
@@ -333,9 +340,9 @@
         <div class="row" data-aos="fade-up">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter="*" class="filter-active" id="portfolio-all">All</li>
+              <li data-filter=".filter-app" id="portfolio-app">App</li>
+              <li data-filter=".filter-web" id="portfolio-web">Web</li>
             </ul>
           </div>
         </div>
@@ -398,8 +405,8 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Contact</h2>
-          <p>
+          <h2 id="contact-title">Contact</h2>
+          <p id="contact-state">
             If you have any questions, please feel free to contact me.
           </p>
         </div>
@@ -410,25 +417,25 @@
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
-                <h4><span>Location</span>:</h4>
-                <p>Siheung-si, Gyeonggi-do, South Korea</p>
+                <h4 id="contact-addr">Location:</h4>
+                <p id="contact-addr-location">Siheung-si, Gyeonggi-do, South Korea</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
-                <h4><span>Email</span>:</h4>
+                <h4 id="contact-email">Email:</h4>
                 <p>huzhenkai@naver.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
-                <h4><span>Wechat</span>:</h4>
+                <h4><span id="contact-wechat">Wechat</span>:</h4>
                 <p>huzhenkai</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
-                <h4><span>Kakaotalk</span>:</h4>
+                <h4><span id="contact-kakaotalk">Kakaotalk</span>:</h4>
                 <p>huzhenkai</p>
               </div>
 
@@ -461,6 +468,8 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/my.js"></script>
+  <script src="assets/js/json.js"></script>
 
 </body>
 
