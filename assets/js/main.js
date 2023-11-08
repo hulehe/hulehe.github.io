@@ -111,6 +111,25 @@
     }
   }, true)
 
+  // mobile模式下，点击header以外的地方和点击X一样，可以隐藏header
+  document.addEventListener('click', function(event) {
+    const header = document.getElementById('header'); // 获取 header 元素
+    // 获取mobile-nav-toggle
+    let nav_toggle = select('.mobile-nav-toggle');
+    // 检查点击事件的目标元素是否在 header 区域内，且事件的目标元素不是nav_toggle
+    if (event.target !== header && !header.contains(event.target) && event.target !== nav_toggle) {
+      let body = select('body')
+      // 取消body的mobile-nav-active类，从而修改header的left值
+      if (body.classList.contains('mobile-nav-active')) {
+        console.log(111);
+        body.classList.remove('mobile-nav-active')
+        let navbarToggle = select('.mobile-nav-toggle')
+        navbarToggle.classList.toggle('bi-list')
+        navbarToggle.classList.toggle('bi-x')
+      }
+    }
+  });
+
   /**
    * Scroll with ofset on page load with hash links in the url
    */
