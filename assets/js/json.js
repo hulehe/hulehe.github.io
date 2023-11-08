@@ -37,17 +37,17 @@ const allText = {
   "I'm":{
     "en": "I'm ",
     "cn": "我是 ",
-    "kr": "나는 "
+    "kr": "저는 "
   },
   "Programer, Robotic developer, Freelancer":{
-    "en": "Programer, Robotic developer, Freelancer",
+    "en": "Programer, Robot developer, Freelancer",
     "cn": "程序员, 机器人研发工程师, 自由职业者",
     "kr": "프로그래머, 로봇 개발자, 프리랜서"
   },
   "about-state":{
     "en": "I was born in 1982 in China and currently reside in South Korea. I hold undergraduate, master's, and doctoral degrees in the field of biomedical engineering, with my PhD being from Korea University. My leisure activities include swimming, rope skipping, and mountain climbing. I enjoy these activities as they help me maintain physical fitness and allow me to engage with nature. I am a person who prefers a quiet environment and enjoys focusing on the things I love.",
     "cn": "我是中国人，出生于1982年，现居韩国。我拥有工科的学士、硕士和博士学位。我喜欢游泳、跳绳和登山。我是一个喜欢宁静和专注的人。",
-    "kr": "나는 1982년에 태어난 중국인이고, 현재는 한국에 거주하고 있습니다. 공학 분야에서 학사, 석사 및 박사 학위를 보유하고 있습니다. 수영 등산 등 운동을 좋아합니다. 조용하고 집중하는 것을 좋아합니다."
+    "kr": "저는 1982년에 태어난 중국인이고, 현재는 한국에 거주하고 있습니다. 공학 분야에서 학사, 석사 및 박사 학위를 보유하고 있습니다. 수영 등산 등 운동을 좋아합니다. 조용하고 집중하는 것을 좋아합니다."
   },
   "Robot developer and Programer":{
     "en": "Robot developer &amp; Programer",
@@ -141,7 +141,7 @@ const allText = {
     control robot hardware and develop algorithms.
     Frontend design entails creating graphic user interfaces, primarily employing HTML, CSS and JavaScript.`,
     "cn": "我拥有广泛的机器人系统设计专业知识，涵盖了后端和前端开发。后端开发涉及使用诸如C、C++、C#、Python等编程语言和服务器技术，用以控制机器人硬件，和开发算法。前端设计涉及创建图形用户界面，主要使用HTML、CSS和JavaScript语言。",
-    "kr": "나는 로봇 시스템 설계 경험을 보유하고 있으며 백엔드 및 프론트엔드 개발을 포함하고 있습니다. 백엔드 개발은 C, C++, C#, Python과 같은 프로그래밍 언어 및 서버 기술을 사용하여 로봇 하드웨어를 제어하고 알고리즘을 개발하는 작업을 합니다. 프론트엔드 디자인은 주로 HTML, CSS 및 JavaScript를 사용하여 그래픽 사용자 인터페이스를 생성하는 작업입니다."
+    "kr": "저는 로봇 시스템 설계 경험을 보유하고 있으며 백엔드 및 프론트엔드 개발을 포함하고 있습니다. 백엔드 개발은 C, C++, C#, Python과 같은 프로그래밍 언어 및 서버 기술을 사용하여 로봇 하드웨어를 제어하고 알고리즘을 개발하는 작업을 합니다. 프론트엔드 디자인은 주로 HTML, CSS 및 JavaScript를 사용하여 그래픽 사용자 인터페이스를 생성하는 작업입니다."
   },
   "Sumary":{
     "en": "Sumary",
@@ -274,7 +274,7 @@ const allText = {
   "If you have any questions, please feel free to contact me.":{
     "en": "If you have any questions, please feel free to contact me.",
     "cn": "如果您有任何问题，请随时与我联系。",
-    "kr": "궁금한 것이 있으시면 언제든지 연락해 주십시오."
+    "kr": "궁금한 점 있으시면 언제든지 연락해 주십시오."
   },
   "Location":{
     "en": "Location:",

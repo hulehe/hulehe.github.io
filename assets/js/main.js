@@ -143,11 +143,35 @@
   /**
    * Hero type effect
    */
-  const typed = select('.typed')  
+  const typed = select('.typed')
   if (typed) {
     let typed_strings = typed.getAttribute('data-typed-items')
     typed_strings = typed_strings.split(',')
     new Typed('.typed', {
+      strings: typed_strings,
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 50,
+      backDelay: 2000
+    });
+  }
+  const typed2 = select('.typed2')
+  if (typed2) {
+    let typed_strings = typed2.getAttribute('data-typed-items')
+    typed_strings = typed_strings.split(',')
+    new Typed('.typed2', {
+      strings: typed_strings,
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 50,
+      backDelay: 2000
+    });
+  }
+  const typed3 = select('.typed3')
+  if (typed3) {
+    let typed_strings = typed3.getAttribute('data-typed-items')
+    typed_strings = typed_strings.split(',')
+    new Typed('.typed3', {
       strings: typed_strings,
       loop: true,
       typeSpeed: 100,

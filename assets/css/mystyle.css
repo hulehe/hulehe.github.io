@@ -15,3 +15,10 @@
   transform: scale(1.2); /* 鼠标悬停时将图像放大到1.2倍 */
   cursor: pointer;
 }
+
+#home-p2{
+  display: none;
+}
+#home-p3{
+  display: none;
+}

@@ -1,5 +1,3 @@
-let typed;
-
 // 更换语言函数
 function changeLang(lang) {
   // 创建一个空对象来存储英文内容
@@ -15,8 +13,6 @@ function changeLang(lang) {
   }
 
   return enData;
-
-
 }
 
 // 把数据导入逐一html中
@@ -98,15 +94,31 @@ function addText(obj) {
   document.getElementById("contact-kakaotalk").innerHTML = obj["Kakaotalk"];
 }
 
-
-
+// 修改首页的typed样式
+function handleHomeP(lang){
+  if(lang === 'en'){
+    document.getElementById('home-p1').style.display = 'block';
+  }else{
+    document.getElementById('home-p1').style.display = 'none';
+  }
+  if(lang === 'cn'){
+    document.getElementById('home-p2').style.display = 'block';
+  }else{
+    document.getElementById('home-p2').style.display = 'none';
+  }
+  if(lang === 'kr'){
+    document.getElementById('home-p3').style.display = 'block';
+  }else{
+    document.getElementById('home-p3').style.display = 'none';
+  }
+}
 
 
 window.onload = function () {
   const imgEn = document.querySelector('.flags > img[alt="us-25.png"]');
   const imgCn = document.querySelector('.flags > img[alt="cn-25.png"]');
   const imgKr = document.querySelector('.flags > img[alt="kr-25.png"]');
-  imgEn.addEventListener("click", () => { addText(changeLang('en')); });
-  imgCn.addEventListener("click", () => { addText(changeLang('cn')); });
-  imgKr.addEventListener("click", () => { addText(changeLang('kr')); });
+  imgEn.addEventListener("click", () => { addText(changeLang('en')); handleHomeP('en')});
+  imgCn.addEventListener("click", () => { addText(changeLang('cn')); handleHomeP('cn')});
+  imgKr.addEventListener("click", () => { addText(changeLang('kr')); handleHomeP('kr')});
 }
