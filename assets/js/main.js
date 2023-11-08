@@ -121,7 +121,6 @@
       let body = select('body')
       // 取消body的mobile-nav-active类，从而修改header的left值
       if (body.classList.contains('mobile-nav-active')) {
-        console.log(111);
         body.classList.remove('mobile-nav-active')
         let navbarToggle = select('.mobile-nav-toggle')
         navbarToggle.classList.toggle('bi-list')
