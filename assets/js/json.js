@@ -55,9 +55,9 @@ const allText = {
     "kr":"로봇 개발자 &amp; 프로그래머"
   },
   "about-professions-state":{
-    "en": "I possess 12 years of professional work experience, having held positions in three different companies.",
-    "cn": "我有12年的工作经验，曾在3家公司任研发人员。",
-    "kr": "12년의 연구 개발 경력을 가지고 있습니다."
+    "en": "I possess 14 years of professional work experience, having held positions in three different companies.",
+    "cn": "我有14年的工作经验，曾在3家公司任研发人员。",
+    "kr": "14년의 연구 개발 경력을 가지고 있습니다."
   },
   "Birthday":{
     "en": "Birthday:",
@@ -110,12 +110,12 @@ const allText = {
     "kr": "가능"
   },
   "about-professions-state-2":{
-    "en": `With over 12 years of experience in robot and IT development,
+    "en": `With over 14 years of experience in robot and IT development,
     I have a strong passion for programming, specializing in both robot programming and web programming.
     Throughout my career, I have been dedicated to advancing robot technology,
     combining biomedical engineering and robotics to address real-world problems.`,
-    "cn": "我拥有超过12年的机器人和IT开发经验，我对编程有着强烈的热情，专注于机器人编程和网络编程两个领域。我致力于用IT技术解决现实世界的问题。",
-    "kr": "로봇 및 IT 개발 분야에서 12년 이상의 경력을 가지고 있으며, 프로그래밍 기술과 IT 기술을 활용하여 현실 문제를 해결하는 걸 잘 합니다."
+    "cn": "我拥有超过14年的机器人和IT开发经验，我对编程有着强烈的热情，专注于机器人编程和网络编程两个领域。我致力于用IT技术解决现实世界的问题。",
+    "kr": "로봇 및 IT 개발 분야에서 14년 이상의 경력을 가지고 있으며, 프로그래밍 기술과 IT 기술을 활용하여 현실 문제를 해결하는 걸 잘 합니다."
   },
   "Facts":{
     "en": "Facts",
@@ -149,11 +149,11 @@ const allText = {
     "kr": "요약"
   },
   "resume-sumary":{
-    "en": `I have dedicated 12 years to research and development in the field of robotics technology.
+    "en": `I have dedicated 14 years to research and development in the field of robotics technology.
     I hold a PhD in engineering and currently reside in South Korea.
     I am proficient in speaking Chinese, English, and Korean.`,
-    "cn": "我已经致力于机器人技术研究与开发达12年之久。我拥有工学博士学位，目前居住在韩国。我能流利地说中文、英文和韩文。",
-    "kr": "로봇 공학 기술 분야의 연구 및 개발에 12년을 경력있고, 공학 박사 학위를 보유하고 있으며 현재 한국에 거주하고 있습니다. 중국어, 영어, 한국어 잘합니다."
+    "cn": "我已经致力于机器人技术研究与开发达14年之久。我拥有工学博士学位，目前居住在韩国。我能流利地说中文、英文和韩文。",
+    "kr": "로봇 공학 기술 분야의 연구 및 개발에 14년을 경력있고, 공학 박사 학위를 보유하고 있으며 현재 한국에 거주하고 있습니다. 중국어, 영어, 한국어 잘합니다."
   },
   "Siheung-si, Gyeonggi-do, South Korea":{
     "en": "Siheung-si, Gyeonggi-do, South Korea",
@@ -196,15 +196,30 @@ const allText = {
     "cn": "工作经历",
     "kr": "경력"
   },
+  "SW Team Manager":{
+    "en": "SW Team Manager",
+    "cn": "软件研发总监",
+    "kr": "소프트웨어개발팀 팀장"
+  },
+  "Development on autonumous driving system":{
+    "en": "Development on autonumous driving system",
+    "cn": "汽车自动驾驶技术研发",
+    "kr": "자율주행 자동차 개발"
+  },
+  "Mainly on teleoperational vehicle autonumous drving control":{
+    "en": "Mainly on teleoperational vehicle autonumous drving control",
+    "cn": "主要从事远程控制汽车自动驾驶技术研发",
+    "kr": "자율주행 자동차 소프트웨어 개발"
+  },
   "Chief Researcher on Commercial Robot Development":{
     "en": "Chief Researcher on Commercial Robot Development",
     "cn": "首席研究员，商务机器人开发",
     "kr": "수석연구원, 안내 로봇 개발"
   },
-  "Seoul, South Korea":{
-    "en": "Seoul, South Korea",
-    "cn": "韩国首尔",
-    "kr": "한국 서울"
+  "South Korea":{
+    "en": "South Korea",
+    "cn": "韩国",
+    "kr": "한국"
   },
   "Development on commercial service robots including information robot and patrol robot":{
     "en": "Development on commercial service robots including information robot and patrol robot",
@@ -221,35 +236,15 @@ const allText = {
     "cn": "博士后研究员，手术机器人研发",
     "kr": "박사후 연구원, 수술로봇 개발"
   },
-  "Research and development on cardiovascular surgical robot":{
-    "en": "Research and development on cardiovascular surgical robot",
-    "cn": "心血管手术机器人研发",
-    "kr": "심혈관 수술로봇 연구 및 개발"
+  "Research and development on cardiovascular surgical robot and Laparoscopic surgical robotic system":{
+    "en": "Research and development on cardiovascular surgical robot and Laparoscopic surgical robotic system",
+    "cn": "心血管手术机器人和腹腔镜手术机器人研发",
+    "kr": "심혈관 수술로봇과 복강강경 수수로봇의의 연구 및 개발"
   },
-  "Mainly on robot control":{
-    "en": "Mainly on robot control",
-    "cn": "主要做机器人控制",
-    "kr": "로봇 제어를 주로 담당"
-  },
-  "Researcher on Surgical Robot Development":{
-    "en": "Researcher on Surgical Robot Development",
-    "cn": "研究员，手术机器人研发",
-    "kr": "연구원, 수술로봇 연구 및 개발"
-  },
-  "Goyang-si, Gyeonggi-do, South Korea":{
-    "en": "Goyang-si, Gyeonggi-do, South Korea",
-    "cn": "韩国京畿道高阳市",
-    "kr": "한국 경기도 고양시"
-  },
-  "Research and development on Laparoscopic surgical robotic system":{
-    "en": "Research and development on Laparoscopic surgical robotic system",
-    "cn": "腹腔镜手术机器人研发",
-    "kr": "복강경 수술로봇 연구 및 개발"
-  },
-  "Haptic feedback technology research and Robot teleoperation control":{
-    "en": "Haptic feedback technology research and Robot teleoperation control",
-    "cn": "力反馈技术和机器人远程控制研究",
-    "kr": "힘반향 기술 및 로봇 원격 제어 기술 연구 및 개발"
+  "Mainly on robot teleoperation control":{
+    "en": "Mainly on robot teleoperation control",
+    "cn": "远程机器人控制",
+    "kr": "원격 로봇 제어를 주로 담당"
   },
   "Below are some apps and web demos that I have personally designed and coded with web programming skills.":{
     "en": "Below are some apps and web demos that I have personally designed and coded with web programming skills.",

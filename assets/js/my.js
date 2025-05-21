@@ -17,12 +17,9 @@ function changeLang(lang) {
 
 // 把数据导入逐一html中
 function addText(obj) {
-  document.getElementById('title').innerHTML = obj["Huzi's Portfolio"];
-  document.getElementById("header-text").innerHTML = obj["Huzi"];
   document.getElementById("nav-home-text").innerHTML = obj["Home"];
   document.getElementById("nav-about-text").innerHTML = obj["About"];
   document.getElementById("nav-resume-text").innerHTML = obj["Resume"];
-  document.getElementById("nav-portfolio-text").innerHTML = obj["Portfolio"];
   document.getElementById("nav-contact-text").innerHTML = obj["Contact"];
   document.getElementById("home-name").innerHTML = obj["Huzi"];
   // document.getElementById("home-p").innerHTML = obj["I'm"];
@@ -53,7 +50,6 @@ function addText(obj) {
 
   document.getElementById("resume-title").innerHTML = obj["Resume"];
   document.getElementById("resume-sumary-title").innerHTML = obj["Sumary"];
-  document.getElementById("resume-name").innerHTML = obj["Huzi"];
   document.getElementById("resume-sumary").innerHTML = obj["resume-sumary"];
   document.getElementById("resume-address").innerHTML = obj["Siheung-si, Gyeonggi-do, South Korea"];
 
@@ -66,18 +62,20 @@ function addText(obj) {
   document.getElementById("resume-bNEU").innerHTML = obj["Northeastern University, Shenyang, China"];
 
   document.getElementById("resume-profession-title").innerHTML = obj["Professional Experience"];
-  document.getElementById("resume-profession1-title").innerHTML = obj["Chief Researcher on Commercial Robot Development"];
-  document.getElementById("resume-profession1-addr").innerHTML = obj["Seoul, South Korea"];
-  document.getElementById("resume-profession1-state1").innerHTML = obj["Development on commercial service robots including information robot and patrol robot"];
-  document.getElementById("resume-profession1-state2").innerHTML = obj["Mainly on robot operating system development"];
-  document.getElementById("resume-profession2-title").innerHTML = obj["Post-doc researcher on Surgical Robot Development"];
-  document.getElementById("resume-profession2-addr").innerHTML = obj["Seoul, South Korea"];
-  document.getElementById("resume-profession2-state1").innerHTML = obj["Research and development on cardiovascular surgical robot"];
-  document.getElementById("resume-profession2-state2").innerHTML = obj["Mainly on robot control"];
-  document.getElementById("resume-profession3-title").innerHTML = obj["Researcher on Surgical Robot Development"];
-  document.getElementById("resume-profession3-addr").innerHTML = obj["Goyang-si, Gyeonggi-do, South Korea"];
-  document.getElementById("resume-profession3-state1").innerHTML = obj["Research and development on Laparoscopic surgical robotic system"];
-  document.getElementById("resume-profession3-state2").innerHTML = obj["Haptic feedback technology research and Robot teleoperation control"];
+  document.getElementById("resume-profession1-title").innerHTML = obj["SW Team Manager"];
+  document.getElementById("resume-profession1-addr").innerHTML = obj["South Korea"];
+  document.getElementById("resume-profession1-state1").innerHTML = obj["Development on autonumous driving system"];
+  document.getElementById("resume-profession1-state2").innerHTML = obj["Mainly on teleoperational vehicle autonumous drving control"];
+
+  document.getElementById("resume-profession2-title").innerHTML = obj["Chief Researcher on Commercial Robot Development"];
+  document.getElementById("resume-profession2-addr").innerHTML = obj["South Korea"];
+  document.getElementById("resume-profession2-state1").innerHTML = obj["Development on commercial service robots including information robot and patrol robot"];
+  document.getElementById("resume-profession2-state2").innerHTML = obj["Mainly on robot operating system development"];
+
+  document.getElementById("resume-profession3-title").innerHTML = obj["Post-doc researcher on Surgical Robot Development"];
+  document.getElementById("resume-profession3-addr").innerHTML = obj["South Korea"];
+  document.getElementById("resume-profession3-state1").innerHTML = obj["Research and development on cardiovascular surgical robot and Laparoscopic surgical robotic system"];
+  document.getElementById("resume-profession3-state2").innerHTML = obj["Mainly on robot teleoperation control"];
 
   document.getElementById("portfolio-title").innerHTML = obj["Portfolio"];
   document.getElementById("portfolio-state").innerHTML = obj["Below are some apps and web demos that I have personally designed and coded with web programming skills."];
